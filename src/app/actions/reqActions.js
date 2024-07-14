@@ -1,5 +1,5 @@
 const axios = require('axios');
-axios.defaults.baseURL = ('https://newnote-nu.vercel.app//api');
+axios.defaults.baseURL = ('https://newnote-k66c4bh02-yash-jadhavs-projects.vercel.app/api');
 
 const doPost = async (url, data = {}) => {
     try {

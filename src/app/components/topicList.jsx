@@ -27,6 +27,7 @@ export default function Topicmain() {
 
     return (
         <div className="maintopics">
+            <h1>hello world</h1>
             {
                 loader ? <LoadingPage/> :
                 api.map((element, key) => (
